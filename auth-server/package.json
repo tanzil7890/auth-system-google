@@ -1,0 +1,28 @@
+{
+  "name": "auth-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch server/auth-server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "tsx server/test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/node": "^20.17.19",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
